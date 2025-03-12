@@ -1,13 +1,13 @@
-# Web interactiva con temática libre - Daily.dev
+# DAILY.DEV
 
-Este proyecto consiste en el **desarrollo de una aplicación web cuyo tema se centra en la creación de un personaje Adalaber**. Tanto la imagen, color de fondo, texto y datos seleccionados se muestran en tarjetas personalizables y cuyo resultado final puede ser compartido en redes sociales. 
+Este proyecto colaborativo consiste en el **desarrollo de una aplicación web cuyo tema se centra en la creación de un personaje Adalaber**. Tanto la imagen, color de fondo, texto y datos seleccionados se muestran en tarjetas personalizables y cuyo resultado final puede ser compartido en redes sociales. 
 El objetivo principal es permitir la creación de nuevos elementos, así como la consulta y renderización de los elementos ya creados en la web.
 La página incluye un formulario para recopilar datos de la usuaria y diseñar una vista previa de la información proporcionada, adaptándose al tema seleccionado.
 
 ## Objetivos
 * Aprender los conceptos básicos de programación (variables, estructuras de datos, condicionales, funciones, etc.).
 * Comprender cómo manipular el DOM de una página y responder a eventos del usuario.
-Manejar estructuras de datos complejas con arrays y objetos.
+* Manejar estructuras de datos complejas con arrays y objetos.
 * Realizar peticiones al servidor y almacenar datos en local.
 * Implementar Scrum como marco de referencia para el desarrollo del producto, basándose siempre en los valores de Agile como puntos clave del trabajo en equipo y la mejora continua.
 * Mejorar la comunicación entre los miembros del equipo.
@@ -89,7 +89,7 @@ El diseño parte de una reinterpretación de la página de Adalab incluido el lo
 Para la realización de este proyecto se ha trabajado en 2 sprints de 7 sesiones cada uno. Siguiendo los principios ágiles se establecieron pequeños ciclos iterativos de forma que al final de cada uno se generó valor perceptible para nuestros usuarios (los visitantes de la web). El primer día se dedicó a la planificación del sprint (sprint planning) y el resto a trabajar en el desarrollo del proyecto. Se creó el tablero del proyecto y se definieron las tareas principales y los working agreements. Al final de cada sprint se hizo una demo del proyecto para presentar los resultados conseguidos, y una retrospectiva (retro) para evaluar el trabajo en equipo y mejorar en el siguiente sprint.
 
 **Primer y segundo sprint:** 
-- Demo corta de 5 minutos para presentar el resultado del trabajo al resto de las compañeras y a las profesoras. 
+- Demo corta de 5 minutos para presentar el resultado del trabajo. 
 - Retro corta revisando los working agreements acordados al inicio del proyecto.
 
 **Final del tercer sprint (final del proyecto):**
@@ -105,11 +105,11 @@ Como desarrolladoras de una aplicación para crear tarjetas de Adalabers queremo
 - Desarrollo de la página de la vista de la tarjeta.
 
 ### Segunda. Versión interactiva
-- Formulario interactivo: al modificar un campo del formulario, se actualiza la vista previa (excepto la foto) (https://books.adalab.es/materiales-del-curso-b-pw-ft/proyectos/p2_web_interactiva/p2_anexo).
+- Formulario interactivo: al modificar un campo del formulario, se actualiza la vista previa (excepto la foto).
 - Realización de validaciones de datos del formulario: campos obligatorios, email, etc.
 
 ### Tercera. Compartir
-- Actualización de la foto en la vista previa de la tarjeta, usando el componente proporcionado (https://github.com/Adalab/Componente-de-foto-de-perfil-js).
+- Actualización de la foto en la vista previa de la tarjeta, usando el componente proporcionado.
 - Añadir la funcionalidad de crear la tarjeta, enviando primero los datos al servidor (POST).
 - Añadir la funcionalidad de compartir en X.
 - Mostrar la tarjeta creada con la información previamente guardada en el servidor (GET).
@@ -131,7 +131,7 @@ Comprobar que estamos en la ruta del directorio adecuada. Posteriormente instala
 
 Clonar repositorio:
 ~~~
-$ git clone [jacquelinlopez/project-promo-B-module-2-team-3](https://github.com/jacquelinlopez/project-promo-B-module-2-team-3.git)
+$ git clone example/project-promo-B-module-2-team-3
 ~~~
 Ruta directorio:
 ~~~
